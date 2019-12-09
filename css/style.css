@@ -1,0 +1,359 @@
+.Stitle{
+    display: none;
+}
+.Sicon{
+    display: none;
+}
+
+.Micon{
+    display: none;
+}
+.Mnav{
+    display: none;
+}
+
+.h12{
+    display: none;
+}
+.Simg{
+    display:none;
+}
+
+.back{
+    background: #021E34;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bodyy{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head{
+    background:#104772;
+    height: 219px;
+    padding:0px;
+    margin: 0px;
+    border-bottom:solid #FFFFFF 7px;
+}
+
+.h11{
+  
+padding-top: 53px;
+padding-left: 57px;
+padding-bottom: 31px;
+text-align: left;
+letter-spacing: 0;
+color: #FFFFFF;
+opacity: 1;
+font-size: 50px;
+}
+
+.Lnav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1167px;
+    
+}
+
+.navlist{
+    
+    margin-left:20px;
+    background:#104772; 
+}
+
+.navli{
+    
+    list-style: none;
+    font-family: "arial";
+    font-size: 20px;
+    padding-right:60px;
+    margin-top:10px;
+    margin-bottom:0px;
+   float: left; 
+
+   text-align: left;
+letter-spacing: 0;
+color: #FFFFFF;
+opacity: 1;
+
+}
+
+.header1img2{
+    margin-left:30px;
+
+}
+
+.box{
+    
+    margin-left:100px ;
+    display: flex;
+    margin-bottom:85px ;
+}
+.sbox{
+    width: 410px;
+}
+
+.p2{
+    width: 592px;
+    height:731px;
+    margin-left: 68px;
+}
+.Laptop2{
+    margin-bottom:16px ;
+}
+
+.Laptop1{
+    margin-left:100px ;
+    margin-top:50px ;
+    margin-bottom:80px ;
+}
+
+
+
+.box2{
+    
+    margin-left:100px ;
+    display: flex;
+
+}
+
+
+.foot{
+    background:#021E34;
+    height: 250px;
+}
+
+
+/*中等*/
+@media (max-width:768px) {
+    .title{
+        display: flex;  
+    }
+    .Micon{
+        margin-top: 68px;
+        margin-left: 40px;
+    }
+    .Mfb{
+        padding-left: 10px;
+    }
+    .Mig{
+        padding-left: 10px;
+    }
+    .head{
+        background:#104772;
+            height: 200px;
+            padding:0px;
+            margin: 0px;
+            border-bottom:solid #FFFFFF 4px;
+    }
+    .Micon{
+        display: block;
+        size: 150%
+    }
+.Lnav{
+    display: none;
+}
+
+.Mnav{
+    display: flex;  
+}
+.h11{
+  
+    padding-top: 50px;
+    padding-left: 190px;
+    padding-bottom: 31px;
+    text-align: left;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 40px;
+    }
+
+.Mnavli{
+    width: 25%;
+    list-style: none;
+    font-family: "arial";
+    font-size: 18px;
+    padding-left:50px;
+    padding-right:50px;
+    margin-bottom:0px;
+   float: left; 
+
+   text-align: left;
+letter-spacing: 0;
+color: #FFFFFF;
+opacity: 1;
+
+}
+
+.Limg{
+    widows: 646px;;
+}
+.Laptop1{
+    margin-left:65px ;
+    width: 646px;
+    height: 205px;
+    margin-bottom:55px ;
+}
+.box{  
+    margin-left:65px ;
+    margin-bottom:55px ;
+}
+.sbox{
+    width: 245px;
+}
+.Laptop2
+{
+    width: 245px;
+}
+.p1
+{
+    width: 245px;
+}
+.p2{
+    width: 356px;
+    margin-left: 40px;
+    height: 443px;
+}
+
+.box2{
+    width: 245px;
+}
+
+
+.sbox2{
+   margin-left: -35px;
+}
+.Laptop3{
+    width: 245px;
+}
+.p3{
+    width: 245px;
+}
+.Laptop4{
+    width: 356px;
+    height: 237px;
+}
+.p4{
+    width: 356px;
+    height: 200px;
+}
+
+.sbox3{
+    margin-left:40px ;
+}
+
+}
+
+/*微調*/
+@media (max-width:630px) {
+    .h11{
+        padding-left: 100px;
+        font-size: 30px;
+        }
+        .Mnavli{
+            width: 25%;
+            font-size: 16px;
+            padding-left:30px;
+            padding-right:30px;
+            margin-bottom:0px;
+           float: left; 
+        
+           text-align: left;
+        letter-spacing: 0;
+        color: #FFFFFF;
+        opacity: 1;
+        
+        }
+}
+
+/*最小*/
+@media (max-width:320px) {
+    .Micon{
+        display: none;
+    }
+    .Stitle{
+        display: block;
+        display: flex; 
+    }
+    .Sicon{
+        display: block;
+        padding-top: 27px;
+        padding-left:90px; 
+    }
+    .sbr{
+        padding-right:10px; 
+    }
+    .sfb{
+        padding-left:90px; 
+    }
+    .Mnav{
+        display: none;
+    }
+    .head{
+        background:#104772;
+        height: 110px;
+        border-bottom:solid #FFFFFF 2px;
+    }
+    .h11{
+        display: none;
+    }
+
+    .h12{
+        display: block;
+          
+padding-top: 27px;
+padding-left: 20px;
+padding-bottom: 31px;
+text-align: left;
+letter-spacing: 0;
+color: #FFFFFF;
+opacity: 1;
+font-size: 24px;
+    }
+    
+.navlist{
+    display:none;
+}
+    
+.Limg{
+    display:none;
+}
+
+.Simg{
+    background:#021E34;
+    display:block;
+    padding-top:22px ;
+    padding-left:20px ;
+}
+
+.sd{
+    margin-bottom: 17px
+}
+.se{
+    margin-bottom: 17px
+}
+
+.sf{
+    margin-bottom: 17px
+}
+.sg{
+    margin-bottom: 17px
+}
+
+.sh{
+    margin-bottom: 17px
+}
+
+}
+
+/*最小*/
+@media (max-width:316px) {
+    .sh{
+        width: 175px;
+        height: 131px;
+    }
+}
